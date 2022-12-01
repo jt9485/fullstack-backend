@@ -112,6 +112,10 @@ app.get('/info', (request, response) => {
   response.send(`<p> Phonebook has info for ${people.length} people.</p> <p> ${date.toLocaleString()} </p>`)
 })
 
+app.get('/', (request, response) => {
+  console.log('root')
+})
+
 const PORT = process.env.port || 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
