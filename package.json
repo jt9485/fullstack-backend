@@ -2,7 +2,7 @@
   "name": "fullstack-backend",
   "private": true,
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "author": "Jake Runzer",
   "license": "MIT",
   "scripts": {
@@ -12,7 +12,8 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "pg": "^8.5.1"
+    "pg": "^8.5.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.0",
