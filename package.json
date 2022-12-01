@@ -1,9 +1,8 @@
 {
   "name": "fullstack-backend",
-  "private": true,
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "src/index.js",
-  "author": "Jake Runzer",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.js",
