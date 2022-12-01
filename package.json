@@ -1,12 +1,12 @@
 {
-  "name": "expressjs-postgres",
+  "name": "fullstack-backend",
   "private": true,
   "version": "1.0.0",
   "main": "dist/index.js",
   "author": "Jake Runzer",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon src/index.js",
     "build": "tsc",
     "start": "node dist/index.js"
   },
